@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #f1f1f1;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  margin: 1rem 0;
+}
+.form {
+  width: 30rem;
+  max-width: 80%;
+  padding: 1rem 3rem;
+}
+.title {
+  border-bottom: 1px solid black;
+  padding: 0.3rem 0;
+  margin-bottom: 1rem;
+}
+.form label {
+  display: block;
+  margin: 0.8rem 0;
+  font-weight: bold;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form-control {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.submitBtn {
+  display: block;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  margin: 0.5rem 0;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
+}
+
+.addBtn {
+  background-color: green;
+}
+.editBtn {
+  background-color: orange;
+}
+.cancelBtn {
+  background-color: red;
+}
+
+.listSection {
+  width: 30rem;
+  max-width: 80%;
+}
+
+.list {
+  list-style: none;
+}
+.listItem {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+.listItemContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.listTitle {
+  text-transform: capitalize;
+  margin: 0.4rem 0;
+}
+.listDesc {
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+
+.listBtn {
+  padding: 0.3rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: capitalize;
+}
+.listEdit {
+  background-color: orange;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+.listDelete {
+  background-color: red;
+  cursor: pointer;
+}
+.listTime {
+  color: gray;
+  font-size: small;
+}
